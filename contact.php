@@ -27,7 +27,7 @@
                 <a href="F.A.Q">F.A.Q</a>
             </li>
             <li>
-                <a href="contact.html">Contact</a>
+                <a href="contact.php">Contact</a>
             </li>
 
             <li class="ul_right">
@@ -45,35 +45,46 @@
     <br>
 
     <container>
-        <form action="main.php" method="post" class="flex_container2">
+
+        <form method="post" action="form.php">
             <div>
-                <label for="name">First name:</label>
-                <input type="text" id="name" name="user_name">
+                <label name>First name:</label>
+                <input type="text" name="user_name">
             </div>
             <div>
-                <label for="last_name">Last name:</label>
-                <input type="text" id="last_name" name="user_last_name">
+                <label last_name>Last name:</label>
+                <input type="text" name="user_last_name">
             </div>
             <div>
-                <label for="password">Password:</label>
-                <input type="text" id="last_name" name="user_last_name" placeholder="8 characters minimum">
+                <label email>Your email:</label>
+                <input type="email" name="email">
+            </div>
+            <div>
+                <label password>Password:</label>
+                <input type="password" name="password" placeholder="8 characters minimum">
             </div>
             <br>
             <div>
-                <input type="radio" id="genreChoice1" name="genre">
-                <label for="genrechoice1">Male</label>
+                <label genrechoice1>Male</label>
+                <input type="radio" value="male" name="gender">
             </div>
             <div>
-                <input type="radio" id="genreChoice2" name="genre">
-                <label for="genrechoice2">Female</label>
+                <label genrechoice2>Female</label>
+                <input type="radio" value="female" name="gender">
             </div>
             <div>
-                <input type="radio" id="genreChoice3" name="genre">
-                <label for="genrechoice2">Other</label>
+                <label genrechoice3>Other</label>
+                <input type="radio" value="other" name="gender">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Submit" class="button">
             </div>
         </form>
 
-
-
-
     </container>
+
+
+</body>
+
+</html>
