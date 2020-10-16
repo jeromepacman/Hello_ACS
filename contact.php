@@ -22,9 +22,9 @@
             </li>
             <li>
                 <a href="margin">Margin</a>
-            </li>=
+            </li>
             <li>
-                <a href="F.A.Q">F.A.Q</a>
+                <a href="f.a.q">F.A.Q</a>
             </li>
             <li>
                 <a href="contact.php">Contact</a>

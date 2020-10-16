@@ -142,6 +142,19 @@ p{
     width:30%;
 }
 
+table{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    border-collapse: collapse;
+   
+}
+
+th,td  {
+    border: #333 solid;
+}
+
+
 @media (max-width: 1200px){
     h1{font-size:29px;}
     h2{font-size:18px;}
