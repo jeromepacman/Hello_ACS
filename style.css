@@ -63,7 +63,7 @@ li a:hover{
 .ban{
     padding-top: 100px;
     background: 50% 50% no-repeat;
-    background-image:url("/images/clifford-photography.jpg");
+    background-image:url("images/clifford-photography.jpg");
     opacity:0.9;
     height:300px;
     width:100%;
